@@ -8,7 +8,7 @@ const message = [
 ]
 
 const visite = () => {
-    document.getElementById('change').style.backgroundColor = 'green'
+    document.getElementById('change').style.backgroundColor = 'black'
 
     let modal = document.getElementById('clickVisite')
 
