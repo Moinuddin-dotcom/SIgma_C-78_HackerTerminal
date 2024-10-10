@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking terminal</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body id="change">
+    <div class="text-center h-[80vh] flex justify-center items-center">
+
+        <button onclick="visite()" class="btn btn-wide ">Visite site</button>
+
+
+    </div>
+
+    <button class="btn hidden" onclick="clickVisite.showModal()">open modal</button>
+    <dialog id="clickVisite" class="modal">
+        <div class="modal-box bg-green-600 text-white">
+            <div id="innerModal">
+                <!-- dynamic -->
+            </div>
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
